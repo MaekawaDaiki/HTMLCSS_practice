@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  height:550px;
+  width: 100%;
+}
+
+.header-top{
+  height:50px;
+  background-color:red;
+}
+
+.header-bottom{
+  height:500px;
+  background-color: orange;
+}
+
+.main{
+  height:1400px;
+  display:flex;
+  justify-content:center;
+  margin:0 auto;
+}
+
+.sidebar1{
+  width:230px;
+  height:1400px;
+  background-color: palegreen;
+}
+.mainbar{
+  width:500px;
+  background-color: limegreen;
+  height:1400px;
+}
+.sidebar2{
+  width:230px;
+  height:1400px;
+  background-color: palegreen;
+}
+
+.footer{
+  width:100%;
+  background-color: blue;
+  height:100px;
+}
